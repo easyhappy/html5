@@ -89,6 +89,7 @@ $(function(){
             var mouseX = e.layerX || 0;
             var mouseY = e.layerY || 0;
         if (selectedCircle != undefined) {
+            //移动位置
             var canvasPosition = $(this).offset();
 
             var radius = circles[selectedCircle].radius;
